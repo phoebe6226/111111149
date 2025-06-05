@@ -1,0 +1,51 @@
+button {
+    background-color: #d8fbff;
+    color: rgb(75, 75, 75);
+    padding: 30px 50px;
+    margin:10px ;
+    border-radius:50px ;
+    border: none;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+  }
+
+button:hover {
+    background-color: #ffffff;
+}
+
+body {
+    border: 5px solid #4f03ff;
+    background-color: #000000e3;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+  }
+
+  a{
+    color: #feffff;
+    
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;  /* 允許換行 */
+  }
+
+  .image-container img {
+    width: 43%;        /* 每張圖片占據父容器的 45% 寬度 */
+    height: auto;      /* 自動調整高度，保持比例 */
+  }
